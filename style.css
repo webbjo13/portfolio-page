@@ -1,0 +1,56 @@
+
+/* Used this grouped style to keep the header and footer matching */
+header, footer {
+  background-color: #4C5454;
+  text-align: center;
+  color: #D3D1D1;
+  padding: 2px;
+}
+
+/* With the colors of the background that I chose there was not much need to assign a bunch of different colors to all the text. It would have made the information harder to read. */
+
+h1 {
+  font-family: Papyrus;
+  font-size: 54px;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+main {
+  background-color: #B0B0B0;
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Ink Free";
+  text-align: center;
+}
+
+hr {
+  background-color: #000000;
+  height: 2px;
+  border: none
+}
+
+p {
+  font-family: Georgia, serif;
+}
+
+/* This section is the styled links using psuedo-classes */
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
+
+/* The wrapper class helps to keep the site looking cleaner by fixing the margins evenly */
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
