@@ -51,9 +51,9 @@ a:active  { color: pink;  }
   margin: auto;
 }
 
-img {
-  display: block;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
