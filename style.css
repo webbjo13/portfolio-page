@@ -50,9 +50,3 @@ a:active  { color: pink;  }
   width: 800px;
   margin: auto;
 }
-
-.center {
-  display: block;
-  align-items: center;
-  justify-content: center;
-}
